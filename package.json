@@ -1,6 +1,6 @@
 {
   "name": "@pangeacyber/aws-sdk",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A wrapper around the AWS SDK's JavaScript BedrockRuntime Client.",
   "publishConfig": {
     "access": "public"
