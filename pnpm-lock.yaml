@@ -28,8 +28,8 @@ importers:
         specifier: 2.2.7
         version: 2.2.7
       '@kenan/biome-config':
-        specifier: 1.0.4
-        version: 1.0.4(@biomejs/biome@2.2.7)
+        specifier: 1.0.6
+        version: 1.0.6(@biomejs/biome@2.2.7)
       '@tsconfig/node22':
         specifier: 22.0.2
         version: 22.0.2
@@ -122,6 +122,7 @@ packages:
   '@aws-sdk/credential-provider-web-identity@3.917.0':
     resolution: {integrity: sha512-pZncQhFbwW04pB0jcD5OFv3x2gAddDYCVxyJVixgyhSw7bKCYxqu6ramfq1NxyVpmm+qsw+ijwi/3cCmhUHF/A==}
     engines: {node: '>=18.0.0'}
+    deprecated: This version contains a compilation TypeScript error https://github.com/aws/aws-sdk-js-v3/issues/7457 - please use @aws-sdk/credential-providers@3.918.0 or higher
 
   '@aws-sdk/eventstream-handler-node@3.914.0':
     resolution: {integrity: sha512-S4Zf+N6xrfQk0Fox+eWftbSqlXh9DUPjuXSbFXwneP7yEJ0+KbbRFsci84MQapNKa5IPb+Kt/li5i7Zp9B4qIw==}
@@ -302,10 +303,10 @@ packages:
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
-  '@kenan/biome-config@1.0.4':
-    resolution: {integrity: sha512-Bc48BNC6qNMPqSO196JclnDlV56m/l+rndldXhX081fhSFcCTEEQMtofpn7cMT7+Ohy1QDeIeb6UtXxe8r+8Cg==}
+  '@kenan/biome-config@1.0.6':
+    resolution: {integrity: sha512-cTfVydG24brCCwwP2bv6C8CzoEnGBZjdOVXKCTd4yNbXc978DX52NEuywjuLO9jFjwvVovC1LCnnXdkAkQjAdw==}
     peerDependencies:
-      '@biomejs/biome': ^2.2.2
+      '@biomejs/biome': ^2.3.0
 
   '@loaderkit/resolve@1.0.4':
     resolution: {integrity: sha512-rJzYKVcV4dxJv+vW6jlvagF8zvGxHJ2+HTr1e2qOejfmGhAApgJHl8Aog4mMszxceTRiKTTbnpgmTO1bEZHV/A==}
@@ -1622,7 +1623,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@kenan/biome-config@1.0.4(@biomejs/biome@2.2.7)':
+  '@kenan/biome-config@1.0.6(@biomejs/biome@2.2.7)':
     dependencies:
       '@biomejs/biome': 2.2.7
 
