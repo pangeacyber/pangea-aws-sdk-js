@@ -50,7 +50,7 @@
   "devDependencies": {
     "@arethetypeswrong/cli": "0.18.2",
     "@biomejs/biome": "2.2.7",
-    "@kenan/biome-config": "1.0.4",
+    "@kenan/biome-config": "1.0.6",
     "@tsconfig/node22": "22.0.2",
     "@types/node": "22.18.11",
     "lefthook": "1.13.6",
