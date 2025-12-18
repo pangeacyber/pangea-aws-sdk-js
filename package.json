@@ -40,7 +40,7 @@
     "typecheck": "tsc --noEmit",
     "prepublishOnly": "pnpm run build"
   },
-  "packageManager": "pnpm@10.24.0",
+  "packageManager": "pnpm@10.26.0",
   "dependencies": {
     "@aws-sdk/client-bedrock-runtime": "^3.948.0",
     "@smithy/smithy-client": "^4.9.10",
