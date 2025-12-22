@@ -43,7 +43,7 @@
   "packageManager": "pnpm@10.26.0",
   "dependencies": {
     "@aws-sdk/client-bedrock-runtime": "^3.948.0",
-    "@smithy/smithy-client": "^4.9.10",
+    "@smithy/smithy-client": "^4.10.2",
     "@smithy/types": "^4.9.0",
     "pangea-node-sdk": "^5.6.0"
   },
