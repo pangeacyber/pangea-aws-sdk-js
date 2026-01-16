@@ -44,7 +44,7 @@
   "dependencies": {
     "@aws-sdk/client-bedrock-runtime": "^3.948.0",
     "@smithy/smithy-client": "^4.9.10",
-    "@smithy/types": "^4.11.0",
+    "@smithy/types": "^4.12.0",
     "pangea-node-sdk": "^5.6.0"
   },
   "devDependencies": {
